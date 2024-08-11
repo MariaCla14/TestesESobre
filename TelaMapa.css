@@ -1,0 +1,80 @@
+/* mAPA AAAAJXHHU */
+
+.carousel {
+  position: relative;
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+.carousel-inner {
+  display: flex;
+  transition: transform 0.5s ease;
+}
+
+.carousel-slide {
+  min-width: 100%;
+  box-sizing: border-box;
+}
+
+.carousel-slide img {
+  width: 100%;
+ 
+}
+
+.description {
+  text-align: center;
+  font-size: 1.2em;
+  padding: 10px;
+}
+
+.thumbnails {
+  text-align: center;
+  padding: 10px;
+}
+
+.thumbnails img {
+  width: 60px;
+  height: 60px;
+  cursor: pointer;
+  margin: 0 5px;
+  border: 2px solid transparent;
+  border-radius: 5px;
+  height: 44px;
+}
+
+.thumbnails img.selected {
+  border-color: rgb(124, 74, 198);
+}
+
+button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(218, 193, 255, 0.282);
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 10px;
+  cursor: pointer;
+  z-index: 1;
+  width: 30px;
+  height: 100px;
+}
+
+.prev {
+  left: 140px;
+  top: 270px;
+}
+
+.next {
+  right:140px;
+  top: 270px;
+}
+
+#ca{
+  max-width: 75%; 
+  width: 75%; 
+  height: 500px;
+  border-radius: 10px; 
+}
